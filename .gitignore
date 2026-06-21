@@ -6,11 +6,20 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# LangGraph State Persistence
+**/.langgraph_api/
 
-# Output directory
+# Virtual environments
+.venv/
+
+# Environment files
+.env
+
+# VSCode configuration
+.VSCode/
+
+# Output files generated during code execution
 target/
 
-# Environment file
-.env
+# SQLite DB files
+*.sqlite

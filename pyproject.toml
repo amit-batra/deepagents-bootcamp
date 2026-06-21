@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "deepagents>=0.6.11",
+    "dotenv-python>=0.0.1",
+    "langgraph-cli[inmem]>=0.4.30",
+    "python-dotenv>=1.2.2",
+    "tavily-python>=0.7.26",
+]
